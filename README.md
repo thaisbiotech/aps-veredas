@@ -9,7 +9,7 @@ O objetivo é preencher um template em R Markdown com informações de municípi
 
 ## 🚀 Como usar
 
-### 1. Pré-requisitos
+### Pré-requisitos
 Instale os pacotes necessários:
 
 ```r
@@ -19,6 +19,48 @@ install.packages(c(
 ))
 
 ---
+# Arquivos do R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Arquivos de saída
+*.docx
+*.pdf
+*.html
+*.Rmd
+*.md
+*.log
+*.aux
+*.out
+*.toc
+
+# Pastas temporárias
+.Rcheck/
+_cache/
+__pycache__/
+*.tmp
+*.swp
+
+# Dados locais (exemplo: Excel, CSV grandes)
+*.xlsx
+*.xls
+*.csv
+*.sav
+*.dta
+*.parquet
+*.feather
+
+# Resultados dos relatórios
+relatorio_*.Rmd
+relatorio_*.docx
+relatorio_*.pdf
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
 source("R/gerar_relatorios.R")
 
